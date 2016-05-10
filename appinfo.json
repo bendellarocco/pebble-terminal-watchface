@@ -1,0 +1,51 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Downforce Studios",
+    "enableMultiJS": false,
+    "longName": "Terminal Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/static-cursor-bw-rect.png",
+                "name": "STATIC_CURSOR",
+                "targetPlatforms": null,
+                "type": "png"
+            },
+            {
+                "file": "images/blinking-cursor-rect-color.png",
+                "name": "BLINKING_CURSOR",
+                "targetPlatforms": null,
+                "type": "png"
+            },
+            {
+                "file": "fonts/Monaco.ttf",
+                "name": "FONT_MONACO_15",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/lucida.ttf",
+                "name": "FONT_LUCIDA_16",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TerminalInfo",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "9fea58ec-6eb2-4a33-84ea-eb32680d070b",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
